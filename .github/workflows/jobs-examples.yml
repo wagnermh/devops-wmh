@@ -7,13 +7,13 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: step do job1
-        run: echo Hello, world! Build.
+      - name: example of invalid command
+        run: echo Hello, world! Build failed.
 
 
   job2:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: step do job2
+      - name: step do deploy
         run: echo Hello, world! Deploy.
