@@ -8,11 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: step do job1
-        run: echo Hello, world! job1.
+        run: echo Hello, world! Build.
 
 
   job2:
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: step do job2
-        run: echo Hello, world! Job2.
+        run: echo Hello, world! Deploy.
