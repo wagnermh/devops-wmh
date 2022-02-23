@@ -11,7 +11,7 @@ jobs:
         run: echo "Full feature artifact" > build-result.txt
 
 
-  job2:
+  deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
