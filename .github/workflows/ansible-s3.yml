@@ -20,12 +20,6 @@ jobs:
         with:
           name: deploy
           path: frontend/out
-
-
-
-
-
-
   deploy:
     runs-on: ubuntu-latest
     needs: build
