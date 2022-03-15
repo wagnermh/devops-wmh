@@ -1,5 +1,5 @@
 {
-  "name": "devops-cyo",
+  "name": "devops-wmh",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/renanr0ssi/devops-cyo.git"
+    "url": "git+https://github.com/wagnermh/devops-wmh.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/renanr0ssi/devops-cyo/issues"
+    "url": "https://github.com/wagnermh/devops-wmh/issues"
   },
-  "homepage": "https://github.com/renanr0ssi/devops-cyo#readme"
+  "homepage": "https://github.com/wagnermh/devops-wagnermh#readme"
 }
